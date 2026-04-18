@@ -20,10 +20,11 @@ void insertionSort(int arr[], int n){
 
 int main(){
     int arr[] = {5,2,9,1};
-    int n = 4;
+    int n = sizeof(arr) / sizeof(arr[0]);
 
     insertionSort(arr, n);
 
     for(int i = 0; i < n; i++)
         cout << arr[i] << " ";
+        return 0;
 }
