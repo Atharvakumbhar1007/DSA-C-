@@ -1,3 +1,4 @@
+//Check if the array is sorted.
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -23,7 +24,7 @@ int main() {
     }
 
     if (isSorted(a)) {
-        cout << "Array is sorted (non-decreasing order)";
+        cout << "Array is sorted";
     } else {
         cout << "Array is NOT sorted";
     }
